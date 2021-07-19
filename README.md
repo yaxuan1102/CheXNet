@@ -13,11 +13,11 @@ A total of 5863 chest radiography images in JPEG format.
 
 
 ### Preprocess
-1. Create label list
+#### 1. Create label list
 - Norma: 0 1
 - Pneumonia: 1 0
 
-2. Image preprocess
+#### 2. Image preprocess
 - Z-normalization
 - Data augmentation: random horizontal flipping
 - Resize: 256x256
