@@ -50,12 +50,14 @@ A total of 5863 chest radiography images in JPEG format.
 - Specificity: 0.9997
 
 ### Validation Performance
+- AUC: 1.0 (for averaged AUC and both categories)
 - Accuracy: 0.8125
 - Sensitivity: 1.0
 - Specificity: 0.6154
 
 
 ### Testing Results
+- AUC: ~0.995 (for averaged AUC and both categories)
 - Accuracy: 0.9615
 - Sensitivity: 0.9907
 - Specificity: 0.9463
