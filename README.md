@@ -51,7 +51,8 @@ A total of 5863 chest radiography images in JPEG format.
 - Accuracy: 0.9967
 - Sensitivity: 0.988
 - Specificity: 0.9997
-|          CM      | Pred: Normal | Pred: Pnemonia |
+
+|      CM          | Pred: Normal | Pred: Pnemonia |
 |------------------|--------------|----------------|
 |    GT: Normal    |      1341    |      1         |
 |    GT: Pnemonia  |      16      |    3859        |
