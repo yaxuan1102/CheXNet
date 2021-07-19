@@ -29,6 +29,9 @@ A total of 5863 chest radiography images in JPEG format.
 - Framework: PyTorch
 - Model: DenseNet121
 - Paramenters and settings:
+
+|       Parameters          |              Settings                   |
+|---------------------------|-----------------------------------------|
 |     Initial weight        |  Pretrained from ImageNet Dataset       |
 |      Loss function        |   Binary cross entropy                  |
 |        Optimizer          |  Adam (beta_1 = 0.9, beta_2 = 0.999)    |
