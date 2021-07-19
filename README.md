@@ -45,21 +45,26 @@ A total of 5863 chest radiography images in JPEG format.
 - Confusion matrix
 
 
-
-### Training Performance
+### Performance
+#### Training 
 - AUC: ~0.999 (for averaged AUC and both categories)
 - Accuracy: 0.9967
 - Sensitivity: 0.988
 - Specificity: 0.9997
+|          CM      | Pred: Normal | Pred: Pnemonia |
+|------------------|--------------|----------------|
+|    GT: Normal    |      1341    |      1         |
+|    GT: Pnemonia  |      16      |    3859        |
 
-### Validation Performance
+
+#### Validation 
 - AUC: 1.0 (for averaged AUC and both categories)
 - Accuracy: 0.8125
 - Sensitivity: 1.0
 - Specificity: 0.6154
 
 
-### Testing Results
+#### Testing 
 - AUC: ~0.995 (for averaged AUC and both categories)
 - Accuracy: 0.9615
 - Sensitivity: 0.9907
